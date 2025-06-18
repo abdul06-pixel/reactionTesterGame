@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Test yourself how quick you can react. Enjoy the game with fun.">
+  <title>Reaction Tester Project</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/jpg" href="images/reactionTester.png">
+</head>
+
+<body>
+
+  <header>
+      <h1>Reaction Tester Game</h1>
+      <section class="sub-head">
+        <button id="instructions"><strong>Instructions</strong></button>
+        <input type="text" placeholder="Enter Your Name" id="username">
+      </section>
+  </header>
+
+  <main>
+    <div id="playarea">
+      
+      <div id="left">
+        <div>
+          <div class="heart1"></div> 
+          <div class="h-thread1"></div>
+        </div>
+
+        <div>
+          <div class="heart2"></div> 
+          <div class="h-thread2"></div>
+        </div>
+
+        <div>
+          <div class="heart3"></div> 
+          <div class="h-thread3"></div>
+        </div>
+      </div>
+
+    <button class = "start" id="start">START</button>
+      
+      <div id="right">
+        <div>
+          <div class="balloon1"></div>
+          <div class="b-thread1"></div>
+        </div>
+        <div>
+          <div class="balloon2"></div>
+          <div class="b-thread2"></div>
+        </div>
+        <div>
+          <div class="balloon3"></div>
+          <div class="b-thread3"></div>
+        </div>
+      </div>
+
+      <div class="arena">
+          <div id="Aheart" class="hearts"></div>
+          <div id="Bheart" class="hearts"></div>
+          <div id="Cheart" class="hearts"></div>
+          <div id="Aballoon" class="balloons"></div>
+          <div id="Bballoon" class="balloons"></div>
+          <div id="Cballoon" class="balloons"></div>
+        </div>
+    </div>
+  </main>
+
+  <footer>
+    <input type="submit" id="endGame" value="End Game">
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
